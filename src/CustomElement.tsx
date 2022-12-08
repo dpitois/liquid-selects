@@ -16,3 +16,9 @@ register(
   { shadow: true } /* render in a shadow dom to avoid style conflict */
 );
 
+register(
+  CustomReact /* component */,
+  "cu-stom-react-no-shadow" /* tag name*/,
+  undefined /* observed properties*/,
+  { shadow: false } /* render in a shadow dom to avoid style conflict */
+);
