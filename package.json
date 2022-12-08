@@ -1,0 +1,24 @@
+{
+  "name": "liquid-selects",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@emdgroup-liquid/liquid": "4.1.10",
+    "preact": "^10.11.2",
+    "preact-custom-element": "^4.2.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "@types/node": "^18.11.11",
+    "@types/preact-custom-element": "^4.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  },
+  "keywords": [],
+  "description": ""
+}
